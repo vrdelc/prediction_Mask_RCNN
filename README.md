@@ -3,8 +3,10 @@
 ## Configuration
 
 Clone this repository
+
 Install Mask RCNN as indicated in [github](https://github.com/matterport/Mask_RCNN)
-Due to [this problem]( https://github.com/matterport/Mask_RCNN/issues/1797), install TensorFlow version 1.13.1 and Keras 2.1.0
+
+Due to problem [AttributeError: module 'tensorflow' has no attribute 'log']( https://github.com/matterport/Mask_RCNN/issues/1797), install TensorFlow version 1.13.1 and Keras 2.1.0
 
 You can download a trained model in [releases](https://github.com/matterport/Mask_RCNN/releases)
 
